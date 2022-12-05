@@ -74,6 +74,11 @@ export default {
       image: "./11.png",
       title: "Responsive product landing site (react)",
     },
+    {
+      link: "https://alex-briz.github.io/my-server-io/",
+      image: "./12.png",
+      title: "Loading JS CSS, unique-shaped blocks"
+    }
   ],
   history: [
     {
