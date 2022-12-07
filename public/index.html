@@ -25,25 +25,16 @@
      font: inherit; 
      vertical-align: baseline;
   }  
-    </style>
-<title><%= htmlWebpackPlugin.options.title %></title>
+</style>
+<title>&copy;CV</title>
+<script>
+ document.title = `© CV ${new Date().toLocaleString().slice(0,9)}`
+</script>
   </head>
   <body>
     <noscript>
       <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
     </noscript>
     <div id="app"></div>
-    <script>
-// function my_func() {
-//   let el_coll = document.getElementsByClassName('wrapper')
-//       let last = el_coll[el_coll.length-1]
-//       let a_coll = last.getElementsByTagName('a');
-//       console.log(a_coll)
-//       for (let a_index in a_coll) {
-//         console.log(a_coll[a_index].innerText)
-// }
-// }
-// document.addEventListener('DOMContentLoaded', my_func())
-    </script>
   </body>
 </html>

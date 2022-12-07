@@ -17,6 +17,11 @@ export default {
         "https://companieslogo.com/img/orig/LOGI-50d54b0c.png?t=1649295494",
       title: "Logitech (K-540 + M-310)",
     },
+    {
+      link: 'https://maximuma.net/',
+      image: 'https://maximuma.net/wp-content/uploads/2019/07/logofooter1.png',
+      title: 'MaximumNet'
+    }
   ],
   folio: [
     {
@@ -174,9 +179,34 @@ image: "https://cdn3.iconfinder.com/data/icons/social-networks-34/96/social-22-5
   ],
   inspired: [
     {
-        image:'https://i0.wp.com/css-tricks.com/wp-content/uploads/2020/05/leading-lineheight.jpg?fit=1200%2C600&ssl=1',
-        title: 'p',
-        paragraph: 'paragraph'
-    }
+      link: 'https://vuejs.org/',
+      image: 'https://vuejs.org/images/logo.png',
+      title: 'Vue.JS'
+    },
+    {
+      link: 'https://marketplace.visualstudio.com/items?itemName=RobbOwen.synthwave-vscode',
+      image: 'https://robbowen.gallerycdn.vsassets.io/extensions/robbowen/synthwave-vscode/0.1.14/1660299784484/Microsoft.VisualStudio.Services.Icons.Default',
+      title: 'SynthWave \'84'
+    },
+    {
+      link: 'https://www.urbandictionary.com/',
+      image: 'https://www.urbandictionary.com/favicon.ico',
+      title: 'Urban Dictionary'
+    },
+    {
+      link: 'https://www.npmjs.com/',
+      image:'https://static.npmjs.com/f1786e9b7cba9753ca7b9c40e8b98f67.png',
+      title: 'npm'
+    },
+    {
+      link: 'https://github.com/',
+      image:'https://github.githubassets.com/favicons/favicon.png',
+      title: 'GitHub'
+    },
+    {
+      link: 'https://en.wikipedia.org/wiki/Bright_green_environmentalism',
+      image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Sunflower_%28Green_symbol%29.svg/90px-Sunflower_%28Green_symbol%29.svg.png',
+      title: 'Bright green environmentalism'
+    },
   ]
 };

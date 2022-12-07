@@ -60,17 +60,20 @@ h1 {
   -webkit-text-fill-color: transparent;
   word-wrap: normal;
 }
-p {
-    width: 100%;
-    text-align: left;
-    line-height: 4vh;
-    font-size: 4vh;
 
+p {
+  width: 100%;
+  text-align: left;
+  line-height: 4vh;
+  font-size: 4vh;
   font-weight: 900;
-  letter-spacing: 3vw;
-  display: block;
-  text-shadow: 0 0 1vw whitesmoke;
-  z-index: 5;
+
+font-weight: 900;
+letter-spacing: 3vw;
+display: block;
+text-shadow: 0 0 1vw whitesmoke;
+z-index: 5;
+
 }
 .photo img {
 z-index: 5;
@@ -88,7 +91,7 @@ z-index: 5;
     left: 66%;
     width: 12vh;
     height: 12vh;
-      background:  rgb(233, 84, 32, 0.5);
+      background: rgba(64, 130, 96, 0.66); 
       border-radius: 2.5vh;
       overflow: visible;
 }
@@ -101,7 +104,7 @@ z-index: 5;
     z-index: 1;
     width: 12vh;
     height: 12vh;
-      background:  rgb(233, 84, 32, 0.5);
+      background:  rgba(255, 255, 255, 0.33);
       border-radius: 2.5vh;
   
       rotate: 45deg;

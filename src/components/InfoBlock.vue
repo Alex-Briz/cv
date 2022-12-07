@@ -61,7 +61,7 @@
           :style="[
           extraStyles === 'contacts'
             ? {
-                fontSize: '0.5rem',
+                fontSize: '1rem',
               }
             : {},
         ]"
@@ -169,7 +169,7 @@ export default {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  background: rgb(245, 245, 245, 0.5);
+  background: rgba(64, 130, 96, 0.33);
   max-height: 42.5vh;
 }
 
@@ -257,7 +257,11 @@ a {
     background: var(--viridian);
 }
 
-
+p {
+  color: black;
+  font-weight: 900;
+  font-size: 2vh;
+}
 
 
 

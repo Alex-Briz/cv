@@ -106,29 +106,26 @@ html * {
   scrollbar-color: rebeccapurple green !important;
   scrollbar-width: thin !important;
 }
-body * {
-  color: var(--viridian);
+body {
+  color: whitesmoke;
   font-family: var(--font-hp);
-  scroll-behavior: smooth;
-  overflow: hidden;
+  background: linear-gradient(
+    0deg,
+    navy 0%,
+    gold 33%,
+    gold 66%,
+    navy 100%
+  );
 }
 #app {
   margin: 0;
   padding: 0;
   width: 100%;
-  min-height: 100vh;
-  background: rgb(180, 58, 77);
-  background: linear-gradient(
-    90deg,
-    rgba(180, 58, 77, 1) 0%,
-    rgba(253, 187, 29, 1) 50%,
-    rgba(69, 252, 96, 1) 100%
-  );
 }
 a {
   font-size: 2.4vh;
-  color: var(--aubergine-dark);
-  text-shadow: 0 0 1.5vh red;
+  color: white;
+  text-shadow: 0 0 1.5rem black;
   font-weight: 900;
   
 }
@@ -137,7 +134,7 @@ h6 {
   text-align: center;
   font-size: 10px;
   line-height: 10px;
-  position: absolute;
-  bottom: 0;
+  position: fixed;
+  bottom: 5px;
 }
 </style>
