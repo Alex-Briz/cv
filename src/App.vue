@@ -110,10 +110,10 @@ body {
   color: whitesmoke;
   font-family: var(--font-hp);
   background: linear-gradient(
-    0deg,
+    180deg,
     navy 0%,
-    gold 33%,
-    gold 66%,
+    gold 40%,
+    gold 60%,
     navy 100%
   );
 }

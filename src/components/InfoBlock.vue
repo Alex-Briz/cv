@@ -37,7 +37,7 @@
 
     <ul
       v-show="toggleBool"
-      :class="[dataObject[0].link ? 'wrapper' : 'paragraphs']"
+      :class="[dataObject[0].link ? 'wrapper' : 'paragraphs', extraStyles === 'contacts' ? 'contacts' : '']"
     >
       <li
         v-for="(data, index) in dataObject"
@@ -49,7 +49,6 @@
                 justifyContent: 'space-between',
                 border: 'none',
                 width: '25%',
-                height: '14.5vh',
                 margin: '1vh',
               }
             : { justifyContent: 'space-between' },
@@ -58,14 +57,6 @@
         <a
           v-if="dataObject[index].link && dataObject[index].title"
           :href="data.link"
-          :style="[
-          extraStyles === 'contacts'
-            ? {
-                fontSize: '1rem',
-              }
-            : {},
-        ]"
-      
         >
           <img
             v-if="dataObject[index].image"
@@ -129,6 +120,35 @@ export default {
 </script>
 
 <style scoped>
+
+@media (orientation: portrait) {
+
+  .contacts li {
+    height: 12vh;
+  }
+  .contacts img {
+    transform: scale(0.5);
+  }
+  .contacts a {
+    font-size: 0.66rem;
+  }
+}
+
+@media (orientation: landscape) {
+
+  .contacts li {
+    height: 14.5vh;
+  }
+  .contacts a {
+    font-size: 1rem;
+  }
+
+}
+
+.contacts img {
+  width: auto;
+}
+
 .block {
   width: 96vw;
   margin: 0 1.5vw 0.75vh ;

@@ -38,8 +38,22 @@ export default {
   align-items: flex-start;
   text-align: left;
 }
+
+@media (orientation: portrait) {
+  h1 {
+    font-size: 2.5rem;
+  }
+}
+
+@media (orientation: landscape) {
+
+  h1 {
+    font-size: 3rem;
+  }
+
+}
+
 h1 {
-  font-size: 3rem;
   letter-spacing: 0.2rem;
   line-height: 6.5vh;
   font-stretch: ultra-expanded;
@@ -60,6 +74,7 @@ h1 {
   -webkit-text-fill-color: transparent;
   word-wrap: normal;
 }
+
 
 p {
   width: 100%;
