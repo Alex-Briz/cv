@@ -154,7 +154,6 @@ export default {
   .wrapper_li {
     height: 15vh;
     width: auto;
-    min-width: 15vh;
   }
 }
 
