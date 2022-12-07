@@ -141,7 +141,20 @@ export default {
     font-size: 0.66rem;
   }
   .wrapper {
-    max-height: 40vh;
+    max-height: 36vh;
+  }
+  .wrapper_li a > img {
+    height: 8vh;
+  }
+
+  .wrapper_li a {
+    height: 17vh;
+  }
+
+  .wrapper_li {
+    height: 15vh;
+    width: auto;
+    min-width: 15vh;
   }
 }
 
@@ -162,6 +175,14 @@ export default {
     width: auto;
     aspect-ratio: 9 / 5;
     min-width: 10vh;
+  }
+
+  .wrapper_li a > img {
+    height: 10vh;
+  }
+  
+  .wrapper_li a {
+    height: 19vh;
   }
 
 }
@@ -220,8 +241,6 @@ export default {
 }
 
 .wrapper_li {
-  height: 18vh;
-  aspect-ratio: 9 / 4;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -247,14 +266,6 @@ margin-left: 10vw;
   flex-direction: column;
   justify-content: space-between;
   text-align: left;
-}
-
-.wrapper_li a > img {
-  height: 10vh;
-}
-
-.wrapper_li a {
-  height: 19vh;
 }
 
 li {

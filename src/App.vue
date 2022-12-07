@@ -131,8 +131,6 @@ a {
   color: white;
   text-shadow: 0 0 1.5rem black;
   font-weight: 900;
-  text-decoration-line: underline;
-  text-decoration-color: var(--viridian);
   text-decoration-style: dashed;
 }
 
@@ -156,7 +154,11 @@ h6 {
 @media (orientation: portrait) {
 
 h6 {
-  bottom: 4vh;
+  bottom: 6vh;
+}
+
+.block:last-child {
+  margin-bottom: 2vh;
 }
 }
 </style>

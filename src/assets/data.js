@@ -83,6 +83,11 @@ export default {
       link: "https://alex-briz.github.io/my-server-io/",
       image: "./12.png",
       title: "Loading JS CSS, unique-shaped blocks"
+    },
+    {
+      link: 'https://alex-briz.github.io/json-list/',
+      image: './13.png',
+      title: 'Convert JSON -> <ul /> - realy easy!)'
     }
   ],
   history: [
