@@ -154,7 +154,7 @@ h6 {
 @media (orientation: portrait) {
 
 h6 {
-  bottom: 3vh;
+  bottom: 2vh;
 }
 
 .block:last-child {
