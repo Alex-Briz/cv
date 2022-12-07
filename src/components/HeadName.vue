@@ -145,6 +145,7 @@ h2 span:nth-child(13) {
 @media (orientation: portrait) {
 
   h1, h1::after {
+    line-height: 2.5rem;
     font-size: 2.5rem;
   }
 
@@ -185,13 +186,14 @@ h2 span {
 
   h1, h1::after {
     font-size: 3rem;
+    line-height: 6.5vh;
   }
 
 }
 
 h1, h1::after {
   letter-spacing: 0.2rem;
-  line-height: 6.5vh;
+
   font-stretch: ultra-expanded;
   font-weight: 900;
   width: 75vw;

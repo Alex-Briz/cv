@@ -1,5 +1,11 @@
 <template>
-  <div class="block">
+  <div class="block"
+  :style="[
+    extraStyles === 'contacts'
+      ? { paddingBottom: '3vh' }
+      : {},
+  ]"
+  >
     <div
       class="toggler"
       @click="toggle"
@@ -36,8 +42,10 @@
     </div>
 
     <ul
+      @dblclick="toggle"
       v-show="toggleBool"
-      :class="[dataObject[0].link ? 'wrapper' : 'paragraphs', extraStyles === 'contacts' ? 'contacts' : '']"
+      :class="[dataObject[0].link ? 'wrapper' : 'paragraphs',
+      extraStyles === 'contacts' ? 'contacts' : '']"
     >
       <li
         v-for="(data, index) in dataObject"
@@ -132,6 +140,9 @@ export default {
   .contacts a {
     font-size: 0.66rem;
   }
+  .wrapper {
+    max-height: 40vh;
+  }
 }
 
 @media (orientation: landscape) {
@@ -141,6 +152,16 @@ export default {
   }
   .contacts a {
     font-size: 1rem;
+  }
+
+  .wrapper {
+    max-height: 42.5vh;
+  }
+  .wrapper_li {
+    height: 18vh;
+    width: auto;
+    aspect-ratio: 9 / 5;
+    min-width: 10vh;
   }
 
 }
@@ -190,7 +211,7 @@ export default {
   justify-content: space-around;
   flex-wrap: wrap;
   background: rgba(64, 130, 96, 0.33);
-  max-height: 42.5vh;
+  overflow-y: scroll;
 }
 
 .overflowY_scroll {
@@ -198,8 +219,8 @@ export default {
 }
 
 .wrapper_li {
-  height: 19vh;
-  aspect-ratio: 9 / 5;
+  height: 18vh;
+  aspect-ratio: 9 / 4;
   display: flex;
   flex-direction: column;
   justify-content: space-between;

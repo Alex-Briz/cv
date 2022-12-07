@@ -129,12 +129,28 @@ a {
   font-weight: 900;
   
 }
+
 h6 {
+  z-index: -1;
   width: 100%;
   text-align: center;
   font-size: 10px;
   line-height: 10px;
   position: fixed;
+}
+
+@media (orientation: landscape) {
+
+h6 {
   bottom: 5px;
+}
+
+}
+
+@media (orientation: portrait) {
+
+h6 {
+  bottom: 4vh;
+}
 }
 </style>
