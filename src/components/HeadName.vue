@@ -282,4 +282,10 @@ z-index: 5;
       rotate: 45deg;
   
 }
+
+@media screen and (min-width: 960px) and (orientation: landscape) {
+  h1, h1::after {
+    letter-spacing: 1.175vw;
+  }
+}
 </style>

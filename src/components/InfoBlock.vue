@@ -155,7 +155,7 @@ export default {
   }
 
   .wrapper {
-    max-height: 42.5vh;
+    max-height: 42vh;
   }
   .wrapper_li {
     height: 18vh;
@@ -211,7 +211,8 @@ export default {
   justify-content: space-around;
   flex-wrap: wrap;
   background: rgba(64, 130, 96, 0.33);
-  overflow-y: scroll;
+  overflow-x: hidden;
+  overflow-y: auto;
 }
 
 .overflowY_scroll {

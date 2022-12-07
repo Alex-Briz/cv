@@ -111,10 +111,14 @@ body {
   font-family: var(--font-hp);
   background: linear-gradient(
     180deg,
-    navy 0%,
-    gold 40%,
-    gold 60%,
-    navy 100%
+    black 0%,
+    black 14.2857%,
+    navy 28.5714%,
+    navy 42.8571%,
+    gold 57.1428%,
+    gold 71.4285%,
+    black 85.7142%,
+    black 100%
   );
 }
 #app {
@@ -127,7 +131,9 @@ a {
   color: white;
   text-shadow: 0 0 1.5rem black;
   font-weight: 900;
-  
+  text-decoration-line: underline;
+  text-decoration-color: var(--viridian);
+  text-decoration-style: dashed;
 }
 
 h6 {

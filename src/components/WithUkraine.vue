@@ -30,6 +30,23 @@ export default {
 </script>
 
 <style scoped>
+
+@media (orientation: landscape) {
+
+p, p span {
+
+    font-size: 4vh;
+}
+  }
+  
+  @media (orientation: portrait) {
+  
+    p, p span {
+      font-size: 2.5vh;
+      
+      }
+}
+
 #withUkraine {
   display: flex;
   flex-direction: row;
@@ -77,7 +94,6 @@ p {
 
 p span {
     font-weight: 900;
-    font-size: 2.5vh;
     background: -webkit-linear-gradient(270deg,navy 25%,gold);
     background-clip: text;
     -webkit-background-clip: text;
