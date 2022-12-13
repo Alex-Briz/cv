@@ -1,4 +1,5 @@
 <template>
+  
   <div class="block"
   :style="[
     extraStyles === 'contacts'
@@ -89,6 +90,7 @@
 </template>
 
 <script>
+
 export default {
   name: "InfoBlock",
   props: {
@@ -124,7 +126,8 @@ export default {
   },
   mounted() {
   },
-};
+}
+
 </script>
 
 <style scoped>

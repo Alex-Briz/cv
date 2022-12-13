@@ -88,6 +88,11 @@ export default {
       link: 'https://alex-briz.github.io/json-list/',
       image: './13.png',
       title: 'Convert JSON -> <ul /> - realy easy!)'
+    },
+    {
+      link: 'https://alex-briz.github.io/weather-app/',
+      image: './14.png',
+      title: 'Nice weather daily forecast via API (vue)'
     }
   ],
   history: [
