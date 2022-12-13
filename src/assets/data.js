@@ -96,13 +96,7 @@ export default {
     }
   ],
   history: [
-    {
-        paragraph:
-        `Ще з 2014 стрімкий розвиток ІТ відкрив мені новий вимір професійного зростання та додаткового на початку заробітку.,
-        Я займався консультативною діяльністю онлайн (хоч і не в суто технічному напрямку),
-        маю невеликий досвід рерайтингу/копірайтингу, промотингу, менеджерські навички
-        (самостійної та колективно-взаємної організації).
-        `},
+
         {
             paragraph:
             `
@@ -144,6 +138,13 @@ export default {
         За допомогою Adobe Photoshop і спеціального друкарського устаткування займались якийсь час виготовленням сувенірної
         продукції на замовлення, - брендована одежа, мерч-продукція і т. п.
         `},
+        {
+          paragraph:
+          `Ще з 2014 стрімкий розвиток ІТ відкрив мені новий вимір професійного зростання та додаткового на початку заробітку.,
+          Я займався консультативною діяльністю онлайн (хоч і не в суто технічному напрямку),
+          маю невеликий досвід рерайтингу/копірайтингу, промотингу, менеджерські навички
+          (самостійної та колективно-взаємної організації).
+          `},
         {
             paragraph:
             `
@@ -189,6 +190,11 @@ image: "https://cdn3.iconfinder.com/data/icons/social-networks-34/96/social-22-5
   ],
   inspired: [
     {
+      link: 'https://abc.xyz/',
+      image: 'https://abc.xyz/favicon-194x194.png',
+      title: 'Alphabet Inc.'
+    },
+    {
       link: 'https://vuejs.org/',
       image: 'https://vuejs.org/images/logo.png',
       title: 'Vue.JS'
@@ -204,6 +210,31 @@ image: "https://cdn3.iconfinder.com/data/icons/social-networks-34/96/social-22-5
       title: 'Urban Dictionary'
     },
     {
+      link: 'https://www.wikipedia.org/',
+      image: 'https://www.wikipedia.org/static/apple-touch/wikipedia.png',
+      title: 'Wikipedia'
+    },
+    {
+      link: 'https://stackoverflow.com/',
+      image: 'https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon.png?v=c78bd457575a',
+      title: 'Stack Overflow'
+    },
+    {
+      link: 'https://www.notion.so/',
+      image: 'https://www.notion.so/front-static/logo-ios.png',
+      title: 'Notion'
+    },
+    {
+      link: 'https://www.figma.com/',
+      image: 'https://static.figma.com/app/icon/1/icon-192.png',
+      title: 'Figma'
+    },    
+    {
+      link: 'https://nodejs.org/',
+      image: 'https://nodejs.org/static/images/logo.svg',
+      title: 'Node JS',
+    },
+    {
       link: 'https://www.npmjs.com/',
       image:'https://static.npmjs.com/f1786e9b7cba9753ca7b9c40e8b98f67.png',
       title: 'npm'
@@ -217,6 +248,86 @@ image: "https://cdn3.iconfinder.com/data/icons/social-networks-34/96/social-22-5
       link: 'https://en.wikipedia.org/wiki/Bright_green_environmentalism',
       image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Sunflower_%28Green_symbol%29.svg/90px-Sunflower_%28Green_symbol%29.svg.png',
       title: 'Bright green environmentalism'
+    },
+    {
+      link: 'https://learn.javascript.ru/',
+      image: 'https://learn.javascript.ru/img/sitetoolbar__logo_small_ru.svg',
+      title: 'JavaScript.ru',
+    },
+    {
+      link: 'https://developer.mozilla.org/',
+      image: 'https://developer.mozilla.org/favicon-48x48.cbbd161b.png',
+      title: 'MDN',
+    },
+    {
+      link: 'https://pythoninstitute.org/',
+      image: 'https://pythoninstitute.org/assets/6267ec8fd6fee365109875.svg',
+      title: 'Python Institute',
+    },
+    {
+      link: 'https://palletsprojects.com/p/flask/',
+      image: 'https://flask.palletsprojects.com/en/2.2.x/_images/flask-logo.png',
+      title: 'Flask',
+    },
+    {
+      link: 'https://www.pythonanywhere.com/',
+      image: 'https://www.pythonanywhere.com/static/anywhere/images/PA-logo.svg',
+      title: 'Python Anywhere',
+    },
+    {
+      link: 'https://cs50.harvard.edu/',
+      image: 'https://cs50.harvard.edu/college/2022/fall/favicon.ico?1670890523',
+      title: 'cs50',
+    },
+    {
+      link: 'https://www.freecodecamp.org/',
+      image: 'https://www.freecodecamp.org/favicon-32x32.png?v=6cba562cbd10e31af925a976f3db73f7',
+      title: 'FreeCodeCamp.org',
+    },
+    {
+      link: 'https://codepen.io/',
+      image: 'https://cpwebassets.codepen.io/assets/favicon/favicon-touch-de50acbf5d634ec6791894eba4ba9cf490f709b3d742597c6fc4b734e6492a5a.png',
+      title: 'codepen.io',
+    },
+    {
+      link: 'https://tailwindcss.com/',
+      image: 'https://tailwindcss.com/favicons/apple-touch-icon.png?v=3',
+      title: 'Tailwind CSS',
+    },
+    {
+      link: 'https://vitejs.dev/',
+      image: 'https://vitejs.dev/logo.svg',
+      title: 'Vite',
+    },
+    {
+      link: 'https://bootstrap-vue.org/',
+      image: 'https://bootstrap-vue.org/_nuxt/icons/icon_64x64.67aef2.png',
+      title: 'Vite',
+    },
+    {
+      link: 'https://vuesax.com/',
+      image: 'https://vuesax.com/logos/logo-vuesax-logotipo-vuesax-png-8.png',
+      title: 'Vuesax',
+    },
+    {
+      link: 'https://nuxtjs.org/',
+      image: 'https://nuxtjs.org/_nuxt/icons/icon_64x64.a3b4ce.png',
+      title: 'Nuxt.js',
+    },
+    {
+      link: 'https://www.vuemastery.com/',
+      image: 'https://www.vuemastery.com/icons/mstile-144x144.png',
+      title: 'VueMastery',
+    },
+    {
+      link: 'https://www.w3schools.com/',
+      image: 'https://www.w3schools.com/favicon.ico',
+      title: 'W3School',
+    },
+    {
+      link: 'https://mate.academy/',
+      image: 'https://mate.academy/static/favicon/favicon-194x194.png',
+      title: 'Mate Academy',
     },
   ]
 };
