@@ -17,7 +17,7 @@
       :defaultShow="true"
       extraStyles="contacts"
     />
-    <h6>&copy; 2022 Chervoniak (Alex-Briz) Vadym</h6>
+    <h6>&copy; 2022 Vadym (Alex-Briz) Chervoniak</h6>
     <div v-show="false" class="audio">
     <audio id="open" autoplay controls>
       <source src="./assets/open-tab.wav" type="audio/wav">
@@ -146,7 +146,7 @@ h6 {
 @media (orientation: landscape) {
 
 h6 {
-  bottom: 5px;
+  bottom: 1vh;
 }
 
 }
@@ -154,7 +154,7 @@ h6 {
 @media (orientation: portrait) {
 
 h6 {
-  bottom: 2vh;
+  bottom: 4vh;
 }
 
 .block:last-child {

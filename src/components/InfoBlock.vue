@@ -83,8 +83,8 @@
           {{ data.paragraph }}
         </p>
       </li>
-      <div :class="['stick']"></div>
     </ul>
+    <div v-show="toggleBool" :class="['stick']"></div>
 </div>
 
 </template>
@@ -144,7 +144,7 @@ export default {
     font-size: 0.66rem;
   }
   .wrapper {
-    max-height: 36vh;
+    max-height: 37vh;
   }
   .wrapper_li a > img {
     height: 8vh;
@@ -158,6 +158,9 @@ export default {
     height: 15vh;
     width: auto;
   }
+    img {
+    max-width: '20vw'; 
+  }
 }
 
 @media (orientation: landscape) {
@@ -170,7 +173,7 @@ export default {
   }
 
   .wrapper {
-    max-height: 42vh;
+    max-height: 40vh;
   }
   .wrapper_li {
     height: 18vh;
@@ -185,6 +188,10 @@ export default {
   
   .wrapper_li a {
     height: 19vh;
+  }
+
+  img {
+    max-width: '15vw'; 
   }
 
 }
@@ -271,7 +278,7 @@ margin-left: 10vw;
 }
 
 li {
-  margin: 1vh 2vw;
+  margin: 0.75vh 2vw;
 }
 
 ul {
@@ -307,9 +314,11 @@ a {
 }
 .stick {
     z-index: 15;
-    width: 105%;
+    width: 98%;
+    margin: 0 1%;
     height: 1vh;
     background: var(--viridian);
+    border-radius: 0.5vh;
 }
 
 p {

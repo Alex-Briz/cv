@@ -6,22 +6,40 @@ export default {
       title: "Canonical Ubuntu (22.04 LTS Jammy Jellyfish)",
     },
     {
+      link: 'https://git-scm.com/',
+      image: 'https://git-scm.com/favicon.ico',
+      title: 'git'
+    },
+    {
+      link: 'https://code.visualstudio.com/',
+      image: 'https://code.visualstudio.com/favicon.ico',
+      title: 'VS Code'
+    },
+    {
+      link: 'https://marketplace.visualstudio.com/items?itemName=RobbOwen.synthwave-vscode',
+      image: 'https://robbowen.gallerycdn.vsassets.io/extensions/robbowen/synthwave-vscode/0.1.14/1660299784484/Microsoft.VisualStudio.Services.Icons.Default',
+      title: 'SynthWave \'84'
+    },
+    {
+      link: 'https://vuejs.org/',
+      image: 'https://vuejs.org/images/logo.png',
+      title: 'Vue.JS'
+    },
+    {
       link: "https://www.hp.com/us-en/home.html",
-      image:
-        "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/HP_logo_2012.svg/1024px-HP_logo_2012.svg.png",
+      image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/HP_logo_2012.svg/1024px-HP_logo_2012.svg.png",
       title: "Hewlett-Packard (HP 250 G5 Notebook PC) ",
     },
     {
       link: "https://www.logitech.com/",
-      image:
-        "https://companieslogo.com/img/orig/LOGI-50d54b0c.png?t=1649295494",
+      image: "https://companieslogo.com/img/orig/LOGI-50d54b0c.png?t=1649295494",
       title: "Logitech (K-540 + M-310)",
     },
     {
       link: 'https://maximuma.net/',
       image: 'https://maximuma.net/wp-content/uploads/2019/07/logofooter1.png',
       title: 'MaximumNet'
-    }
+    },
   ],
   folio: [
     {
@@ -87,7 +105,7 @@ export default {
     {
       link: 'https://alex-briz.github.io/json-list/',
       image: './13.png',
-      title: 'Convert JSON -> <ul /> - realy easy!)'
+      title: 'Convert JSON -> <ul /> - really easy!)'
     },
     {
       link: 'https://alex-briz.github.io/weather-app/',
@@ -195,19 +213,14 @@ image: "https://cdn3.iconfinder.com/data/icons/social-networks-34/96/social-22-5
       title: 'Alphabet Inc.'
     },
     {
-      link: 'https://vuejs.org/',
-      image: 'https://vuejs.org/images/logo.png',
-      title: 'Vue.JS'
-    },
-    {
-      link: 'https://marketplace.visualstudio.com/items?itemName=RobbOwen.synthwave-vscode',
-      image: 'https://robbowen.gallerycdn.vsassets.io/extensions/robbowen/synthwave-vscode/0.1.14/1660299784484/Microsoft.VisualStudio.Services.Icons.Default',
-      title: 'SynthWave \'84'
-    },
-    {
       link: 'https://www.urbandictionary.com/',
       image: 'https://www.urbandictionary.com/favicon.ico',
       title: 'Urban Dictionary'
+    },
+    {
+      link: 'https://en.wikipedia.org/wiki/Bright_green_environmentalism',
+      image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Sunflower_%28Green_symbol%29.svg/90px-Sunflower_%28Green_symbol%29.svg.png',
+      title: 'Bright green environmentalism'
     },
     {
       link: 'https://www.wikipedia.org/',
@@ -245,9 +258,9 @@ image: "https://cdn3.iconfinder.com/data/icons/social-networks-34/96/social-22-5
       title: 'GitHub'
     },
     {
-      link: 'https://en.wikipedia.org/wiki/Bright_green_environmentalism',
-      image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Sunflower_%28Green_symbol%29.svg/90px-Sunflower_%28Green_symbol%29.svg.png',
-      title: 'Bright green environmentalism'
+      link: 'https://kubernetes.io/',
+      image:'https://kubernetes.io/images/favicon.png',
+      title: 'Kubernetes'
     },
     {
       link: 'https://learn.javascript.ru/',
@@ -295,19 +308,19 @@ image: "https://cdn3.iconfinder.com/data/icons/social-networks-34/96/social-22-5
       title: 'Tailwind CSS',
     },
     {
-      link: 'https://vitejs.dev/',
-      image: 'https://vitejs.dev/logo.svg',
-      title: 'Vite',
-    },
-    {
       link: 'https://bootstrap-vue.org/',
       image: 'https://bootstrap-vue.org/_nuxt/icons/icon_64x64.67aef2.png',
-      title: 'Vite',
+      title: 'Bootstrap Vue',
     },
     {
       link: 'https://vuesax.com/',
       image: 'https://vuesax.com/logos/logo-vuesax-logotipo-vuesax-png-8.png',
       title: 'Vuesax',
+    },
+    {
+      link: 'https://vitejs.dev/',
+      image: 'https://vitejs.dev/logo.svg',
+      title: 'Vite',
     },
     {
       link: 'https://nuxtjs.org/',
