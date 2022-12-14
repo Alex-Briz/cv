@@ -28,15 +28,12 @@
     Your browser does not support the audio element.
     </audio>
   </div>
-  <!-- <iframe src="./assets/open-tab.wav" allow="autoplay" style="display:none" id="iframeAudio">
-  </iframe>  -->
   </div>
 </template>
 
 <script>
 import WithUkraine from "./components/WithUkraine.vue";
 import HeadName from "./components/HeadName.vue";
-// import ViridianE from './components/ViridianE.vue';
 import InfoBlock from "./components/InfoBlock.vue";
 import data from "./assets/data.js";
 
@@ -45,12 +42,11 @@ export default {
   components: {
     WithUkraine,
     HeadName,
-    // ViridianE,
     InfoBlock,
   },
   data() {
     return {
-      toolkit: data.thanks,
+      toolkit: data.toolkit,
       folio: data.folio,
       history: data.history,
       contacts: data.contacts,
