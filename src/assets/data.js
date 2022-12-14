@@ -1,15 +1,5 @@
 export default {
-  thanks: [
-    {
-      link: "https://ubuntu.com/",
-      image: "https://assets.ubuntu.com/v1/5924f0b8-CoF-2022.svg",
-      title: "Canonical Ubuntu (22.04 LTS Jammy Jellyfish)",
-    },
-    {
-      link: 'https://git-scm.com/',
-      image: 'https://git-scm.com/favicon.ico',
-      title: 'git'
-    },
+  toolkit: [
     {
       link: 'https://code.visualstudio.com/',
       image: 'https://code.visualstudio.com/favicon.ico',
@@ -26,20 +16,50 @@ export default {
       title: 'Vue.JS'
     },
     {
-      link: "https://www.hp.com/us-en/home.html",
-      image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/HP_logo_2012.svg/1024px-HP_logo_2012.svg.png",
-      title: "Hewlett-Packard (HP 250 G5 Notebook PC) ",
+      link: 'https://vitejs.dev/',
+      image: 'https://vitejs.dev/logo.svg',
+      title: 'Vite',
     },
     {
-      link: "https://www.logitech.com/",
-      image: "https://companieslogo.com/img/orig/LOGI-50d54b0c.png?t=1649295494",
-      title: "Logitech (K-540 + M-310)",
+      link: 'https://nuxtjs.org/',
+      image: 'https://nuxtjs.org/_nuxt/icons/icon_64x64.a3b4ce.png',
+      title: 'Nuxt.js',
     },
     {
-      link: 'https://maximuma.net/',
-      image: 'https://maximuma.net/wp-content/uploads/2019/07/logofooter1.png',
-      title: 'MaximumNet'
+      link: 'https://bootstrap-vue.org/',
+      image: 'https://bootstrap-vue.org/_nuxt/icons/icon_64x64.67aef2.png',
+      title: 'Bootstrap Vue',
     },
+    {
+      link: 'https://vuesax.com/',
+      image: 'https://vuesax.com/logos/logo-vuesax-logotipo-vuesax-png-8.png',
+      title: 'Vuesax',
+    },
+    {
+      link: 'https://tailwindcss.com/',
+      image: 'https://tailwindcss.com/favicons/apple-touch-icon.png?v=3',
+      title: 'Tailwind CSS',
+    },
+    {
+      link: 'https://git-scm.com/',
+      image: 'https://git-scm.com/favicon.ico',
+      title: 'git'
+    },
+    {
+      link: 'https://github.com/Alex-Briz/',
+      image: 'https://github.com/fluidicon.png',
+      title: 'github'
+    },
+    {
+      link: 'https://nodejs.org/',
+      image: 'https://nodejs.org/static/images/logo.svg',
+      title: 'Node JS',
+    },
+    {
+      link: 'https://www.npmjs.com/',
+      image:'https://static.npmjs.com/f1786e9b7cba9753ca7b9c40e8b98f67.png',
+      title: 'npm'
+    },  
   ],
   folio: [
     {
@@ -110,7 +130,7 @@ export default {
     {
       link: 'https://alex-briz.github.io/weather-app/',
       image: './14.png',
-      title: 'Nice weather daily forecast via API (vue)'
+      title: 'Weather app - daily forecast via API (vue)'
     }
   ],
   history: [
@@ -158,7 +178,7 @@ export default {
             paragraph:
             `
             I am studying the generally accepted standards HTML5, CSS3, ES6.
-            I like JavaScript because with the appearance of NodJS it took root on the server as a backend language as well.
+            I like JavaScript because with the appearance of NodeJS it took root on the server as a backend language as well.
         `},
         {
             paragraph:
@@ -199,64 +219,9 @@ image: "https://cdn3.iconfinder.com/data/icons/social-networks-34/96/social-22-5
       title: 'Bright green environmentalism'
     },
     {
-      link: 'https://www.urbandictionary.com/',
-      image: 'https://www.urbandictionary.com/favicon.ico',
-      title: 'Urban Dictionary'
-    },
-    {
-      link: 'https://stackoverflow.com/',
-      image: 'https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon.png?v=c78bd457575a',
-      title: 'Stack Overflow'
-    },
-    {
-      link: 'https://www.notion.so/',
-      image: 'https://www.notion.so/front-static/logo-ios.png',
-      title: 'Notion'
-    },
-    {
-      link: 'https://www.figma.com/',
-      image: 'https://static.figma.com/app/icon/1/icon-192.png',
-      title: 'Figma'
-    },    
-    {
-      link: 'https://nodejs.org/',
-      image: 'https://nodejs.org/static/images/logo.svg',
-      title: 'Node JS',
-    },
-    {
-      link: 'https://www.npmjs.com/',
-      image:'https://static.npmjs.com/f1786e9b7cba9753ca7b9c40e8b98f67.png',
-      title: 'npm'
-    },
-    {
-      link: 'https://github.com/',
-      image:'https://github.githubassets.com/favicons/favicon.png',
-      title: 'GitHub'
-    },
-    {
-      link: 'https://learn.javascript.ru/',
-      image: 'https://learn.javascript.ru/img/sitetoolbar__logo_small_ru.svg',
-      title: 'JavaScript.ru',
-    },
-    {
-      link: 'https://developer.mozilla.org/',
-      image: 'https://developer.mozilla.org/favicon-48x48.cbbd161b.png',
-      title: 'MDN',
-    },
-    {
       link: 'https://pythoninstitute.org/',
       image: 'https://pythoninstitute.org/assets/6267ec8fd6fee365109875.svg',
       title: 'Python Institute',
-    },
-    {
-      link: 'https://palletsprojects.com/p/flask/',
-      image: 'https://flask.palletsprojects.com/en/2.2.x/_images/flask-logo.png',
-      title: 'Flask',
-    },
-    {
-      link: 'https://www.pythonanywhere.com/',
-      image: 'https://www.pythonanywhere.com/static/anywhere/images/PA-logo.svg',
-      title: 'Python Anywhere',
     },
     {
       link: 'https://cs50.harvard.edu/',
@@ -269,34 +234,9 @@ image: "https://cdn3.iconfinder.com/data/icons/social-networks-34/96/social-22-5
       title: 'FreeCodeCamp.org',
     },
     {
-      link: 'https://codepen.io/',
-      image: 'https://cpwebassets.codepen.io/assets/favicon/favicon-touch-de50acbf5d634ec6791894eba4ba9cf490f709b3d742597c6fc4b734e6492a5a.png',
-      title: 'codepen.io',
-    },
-    {
-      link: 'https://tailwindcss.com/',
-      image: 'https://tailwindcss.com/favicons/apple-touch-icon.png?v=3',
-      title: 'Tailwind CSS',
-    },
-    {
-      link: 'https://bootstrap-vue.org/',
-      image: 'https://bootstrap-vue.org/_nuxt/icons/icon_64x64.67aef2.png',
-      title: 'Bootstrap Vue',
-    },
-    {
-      link: 'https://vuesax.com/',
-      image: 'https://vuesax.com/logos/logo-vuesax-logotipo-vuesax-png-8.png',
-      title: 'Vuesax',
-    },
-    {
-      link: 'https://vitejs.dev/',
-      image: 'https://vitejs.dev/logo.svg',
-      title: 'Vite',
-    },
-    {
-      link: 'https://nuxtjs.org/',
-      image: 'https://nuxtjs.org/_nuxt/icons/icon_64x64.a3b4ce.png',
-      title: 'Nuxt.js',
+      link: 'https://www.codewars.com/',
+      image: 'https://uploads-ssl.webflow.com/62e95dddfb380a0e61193e7d/6363e7db70db732290fa3db6_logo-256.png',
+      title: 'CodeWars',
     },
     {
       link: 'https://www.vuemastery.com/',

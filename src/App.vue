@@ -5,7 +5,7 @@
     <!-- <ViridianE text="viridian" /> -->
     <InfoBlock text="my history:" :dataObject="history" :defaultShow="false" />
     <InfoBlock text="demo pages:" :dataObject="folio" :defaultShow="true" />
-    <InfoBlock text="impowered by:" :dataObject="thanks" :defaultShow="false" />
+    <InfoBlock text="toolkit:" :dataObject="toolkit" :defaultShow="false" />
     <InfoBlock
       text="inspired by:"
       :dataObject="inspired"
@@ -50,7 +50,7 @@ export default {
   },
   data() {
     return {
-      thanks: data.thanks,
+      toolkit: data.thanks,
       folio: data.folio,
       history: data.history,
       contacts: data.contacts,
