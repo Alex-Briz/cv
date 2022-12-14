@@ -16,31 +16,6 @@ export default {
       title: 'Vue.JS'
     },
     {
-      link: 'https://vitejs.dev/',
-      image: 'https://vitejs.dev/logo.svg',
-      title: 'Vite',
-    },
-    {
-      link: 'https://nuxtjs.org/',
-      image: 'https://nuxtjs.org/_nuxt/icons/icon_64x64.a3b4ce.png',
-      title: 'Nuxt.js',
-    },
-    {
-      link: 'https://bootstrap-vue.org/',
-      image: 'https://bootstrap-vue.org/_nuxt/icons/icon_64x64.67aef2.png',
-      title: 'Bootstrap Vue',
-    },
-    {
-      link: 'https://vuesax.com/',
-      image: 'https://vuesax.com/logos/logo-vuesax-logotipo-vuesax-png-8.png',
-      title: 'Vuesax',
-    },
-    {
-      link: 'https://tailwindcss.com/',
-      image: 'https://tailwindcss.com/favicons/apple-touch-icon.png?v=3',
-      title: 'Tailwind CSS',
-    },
-    {
       link: 'https://git-scm.com/',
       image: 'https://git-scm.com/favicon.ico',
       title: 'git'
@@ -209,19 +184,14 @@ image: "https://cdn3.iconfinder.com/data/icons/social-networks-34/96/social-22-5
   ],
   inspired: [
     {
-      link: 'https://abc.xyz/',
-      image: 'https://abc.xyz/favicon-194x194.png',
-      title: 'Alphabet Inc.'
-    },
-    {
       link: 'https://en.wikipedia.org/wiki/Bright_green_environmentalism',
       image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Sunflower_%28Green_symbol%29.svg/90px-Sunflower_%28Green_symbol%29.svg.png',
       title: 'Bright green environmentalism'
     },
     {
-      link: 'https://pythoninstitute.org/',
-      image: 'https://pythoninstitute.org/assets/6267ec8fd6fee365109875.svg',
-      title: 'Python Institute',
+      link: 'https://abc.xyz/',
+      image: 'https://abc.xyz/favicon-194x194.png',
+      title: 'Alphabet Inc.'
     },
     {
       link: 'https://cs50.harvard.edu/',
@@ -229,19 +199,9 @@ image: "https://cdn3.iconfinder.com/data/icons/social-networks-34/96/social-22-5
       title: 'cs50',
     },
     {
-      link: 'https://www.freecodecamp.org/',
-      image: 'https://www.freecodecamp.org/favicon-32x32.png?v=6cba562cbd10e31af925a976f3db73f7',
-      title: 'FreeCodeCamp.org',
-    },
-    {
       link: 'https://www.codewars.com/',
       image: 'https://uploads-ssl.webflow.com/62e95dddfb380a0e61193e7d/6363e7db70db732290fa3db6_logo-256.png',
       title: 'CodeWars',
-    },
-    {
-      link: 'https://www.vuemastery.com/',
-      image: 'https://www.vuemastery.com/icons/mstile-144x144.png',
-      title: 'VueMastery',
     },
     {
       link: 'https://www.w3schools.com/',
@@ -249,9 +209,39 @@ image: "https://cdn3.iconfinder.com/data/icons/social-networks-34/96/social-22-5
       title: 'W3School',
     },
     {
+      link: 'https://www.vuemastery.com/',
+      image: 'https://www.vuemastery.com/icons/mstile-144x144.png',
+      title: 'VueMastery',
+    },
+    {
       link: 'https://mate.academy/',
       image: 'https://mate.academy/static/favicon/favicon-194x194.png',
       title: 'Mate Academy',
+    },
+    {
+      link: 'https://vitejs.dev/',
+      image: 'https://vitejs.dev/logo.svg',
+      title: 'Vite',
+    },
+    {
+      link: 'https://nuxtjs.org/',
+      image: 'https://nuxtjs.org/_nuxt/icons/icon_64x64.a3b4ce.png',
+      title: 'Nuxt.js',
+    },
+    {
+      link: 'https://bootstrap-vue.org/',
+      image: 'https://bootstrap-vue.org/_nuxt/icons/icon_64x64.67aef2.png',
+      title: 'Bootstrap Vue',
+    },
+    {
+      link: 'https://vuesax.com/',
+      image: 'https://vuesax.com/logos/logo-vuesax-logotipo-vuesax-png-8.png',
+      title: 'Vuesax',
+    },
+    {
+      link: 'https://tailwindcss.com/',
+      image: 'https://tailwindcss.com/favicons/apple-touch-icon.png?v=3',
+      title: 'Tailwind CSS',
     },
   ]
 };
