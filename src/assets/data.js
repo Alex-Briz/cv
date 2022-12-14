@@ -118,71 +118,52 @@ export default {
         {
             paragraph:
             `
-        В шкільні роки я був не відмінником, але - твердим "хорошистом" без "трійок",
-        брав участь в місцевих міжшкільних олімпіадах з математики, фізики, хімії (та навіть займав не останні місця),
-        приймав участь від своєї школи з англійської і інформатики.
+            I was born into a family of two engineers, when computers worked on punched cards.`
+          },
+        {
+            paragraph:
+            `
+            I was sent to a school with a focus on computer science. It was BASIC and PASCAL.
         `},
         {
             paragraph:
             `
-        В коледжі був зам. старости навчальної групи та вчився на підвищену стипендію і закінчив коледж з відзнакою.
-        Пішов одразу на 3-й курс університету за скороченою програмою (факультет фізики, кафедра новітньої енергетики в м. Чернівці),
-        отримував підвищену стипендію і знову ж таки був зам. старости групи.
+            I participated in educational competitions and took not the last places at the local level (mathematics, physics, chemistry, English).
         `},
         {
             paragraph:
             `
-        Свій перший ПК я придбав у 2003-му, за гроші зароблені на літніх канікулах.
-        Звіттоді я й розвиваюся.
+            I earned my first PC when I was 15 - in 2003, working part-time during the holidays.
         `},
         {
             paragraph:
             `
-        Я застав час коли найпоширенішою була ОС WinXP, потім я розвивав у собі поступово креативні здібності,
-        займався створенням та редагуванням цифрової музики (з використанням таких інструментів як FLStudio,
-        коли він ще називався Fruity Loops 3, SoundForge коли ця утиліта належала компанії Sonic Foundary,
-        а не Sony, та Audition, коли він ще не був куплений Adobe).
+            These were Windows XP, Fruity Loops, Sound Forge, Audition, Photoshop.
         `},
         {
             paragraph:
             `
-        Деякий час співпрацював з рекламно-телекомунікаційним
-        підприємством (студією звукозапису та діджей-школою за сумісництвом, що доречі існує, але в іншій формі наразі -
-        як рекламне агенство в місті, де я родився і виріс - Кам'янець-Подільський, що на Хмельниччині).
-        `},
-        {
-            paragraph:
-            `
-        За допомогою Adobe Photoshop і спеціального друкарського устаткування займались якийсь час виготовленням сувенірної
-        продукції на замовлення, - брендована одежа, мерч-продукція і т. п.
+            I was engaged in sound processing at a local recording studio and printing on mugs, clothes, etc.
         `},
         {
           paragraph:
-          `Ще з 2014 стрімкий розвиток ІТ відкрив мені новий вимір професійного зростання та додаткового на початку заробітку.,
-          Я займався консультативною діяльністю онлайн (хоч і не в суто технічному напрямку),
-          маю невеликий досвід рерайтингу/копірайтингу, промотингу, менеджерські навички
-          (самостійної та колективно-взаємної організації).
+          `Since 2014, I seriously thought about moving into IT, following my brother, who started a DevOps career. 
           `},
         {
             paragraph:
             `
-        Мені зрозумілі і близькі процеси неперервної розробки,
-        до душі постійний розвиток, і націленість на стабільну співпрацю, на основі взаємоповаги, та "робота на результат",
-        і я не боюся обов'язків та відповідальності пов'язаних з професійною діяльністю.
+            First it was Java. Then Web Basics. Then Python with the Python Institute. Thanks to the Harvard CS50 open courses, I also got acquainted with the low-level C language.
         `},
         {
             paragraph:
             `
-        Я звик працювати по 50 годин на тиждень, і думаю - це цілком нормально.
-        Якщо необхідно, то я готовий прикласти скільки треба зусиль, та не пожалкую часу заради успіху в реалізації поставлених цілей,
-        розвя'зання технічних задач, досягнення справжнього та глибокого (вільного) розуміння предмету.
+            I am studying the generally accepted standards HTML5, CSS3, ES6.
+            I like JavaScript because with the appearance of NodJS it took root on the server as a backend language as well.
         `},
         {
             paragraph:
             `
-        Відчуття впевненості у власних знаннях і вміннях,
-        та іх цінності для інших, - це те, що "дарує крила"! ;)
-        Приємно по життю бути людиною справи/діла, триматися взаємодомовленостей та взаєморозуміння.`
+            I want to be a professional as a full-stack web developer, with knowledge and skills to benefit the world, to make the complex simple.`
     }
   ],
   contacts: [
@@ -213,19 +194,14 @@ image: "https://cdn3.iconfinder.com/data/icons/social-networks-34/96/social-22-5
       title: 'Alphabet Inc.'
     },
     {
-      link: 'https://www.urbandictionary.com/',
-      image: 'https://www.urbandictionary.com/favicon.ico',
-      title: 'Urban Dictionary'
-    },
-    {
       link: 'https://en.wikipedia.org/wiki/Bright_green_environmentalism',
       image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Sunflower_%28Green_symbol%29.svg/90px-Sunflower_%28Green_symbol%29.svg.png',
       title: 'Bright green environmentalism'
     },
     {
-      link: 'https://www.wikipedia.org/',
-      image: 'https://www.wikipedia.org/static/apple-touch/wikipedia.png',
-      title: 'Wikipedia'
+      link: 'https://www.urbandictionary.com/',
+      image: 'https://www.urbandictionary.com/favicon.ico',
+      title: 'Urban Dictionary'
     },
     {
       link: 'https://stackoverflow.com/',
@@ -256,11 +232,6 @@ image: "https://cdn3.iconfinder.com/data/icons/social-networks-34/96/social-22-5
       link: 'https://github.com/',
       image:'https://github.githubassets.com/favicons/favicon.png',
       title: 'GitHub'
-    },
-    {
-      link: 'https://kubernetes.io/',
-      image:'https://kubernetes.io/images/favicon.png',
-      title: 'Kubernetes'
     },
     {
       link: 'https://learn.javascript.ru/',
